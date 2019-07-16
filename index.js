@@ -13,8 +13,8 @@ function whisper(string){
  function logShout(string){
    console.log(string.toUpperCase);
  }
- logShout('hello');
- logShout('HELLO');
+ //logShout('hello');
+ //logShout('HELLO');
  
 function logWhisper(string){
   console.log(string.toLowerCase);
