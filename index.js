@@ -11,22 +11,22 @@ function whisper(string){
 //whisper(['hello']);
 
  function logShout(string){
-   console.log(string.toUpperCase);
+   console.log(string.toUpperCase());
  }
  //logShout('hello');
  //logShout(['HELLO']);
  
 function logWhisper(string){
-  console.log(string.toLowerCase);
+  console.log(string.toLowerCase());
 }
 //logWhisper("HELLO");
 //logWhisper(['hello']);
 
 function sayHiToGrandma(string){
-  if(string  === string.toLowerCase) {
+  if(string  === string.toLowerCase()) {
     return "I can\'t hear you!";
   }
-  if(string === string.toUpperCase) {
+  if(string === string.toUpperCase()) {
     return "YES INDEED!";
   }
   if(string === "I love you, Grandma.") {
