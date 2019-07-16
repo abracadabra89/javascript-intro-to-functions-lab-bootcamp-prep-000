@@ -2,25 +2,25 @@ function shout(string){
   return string.toUpperCase();
 }
 //shout('hello');
-shout('HELLO');
+shout(['HELLO']);
 
 function whisper(string){
   return string.toLowerCase();
 }
 //whisper('HELLO');
-whisper('hello');
+whisper(['hello']);
 
  function logShout(string){
    console.log(string.toUpperCase);
  }
  //logShout('hello');
- //logShout('HELLO');
+ logShout(['HELLO']);
  
 function logWhisper(string){
   console.log(string.toLowerCase);
 }
 //logWhisper("HELLO");
-logWhisper('hello');
+logWhisper(['hello']);
 
 function sayHiToGrandma(string){
   if(string  === strimg.toLowerCase) {
