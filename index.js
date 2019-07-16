@@ -25,12 +25,12 @@ logWhisper('hello');
 function sayHiToGrandma(string){
   let uppercase = 'HELLO!';
   let lowercase = 'hello!';
-  if(string  === lowercase){
+  if(string  === lowercase) {
     return "I can\'t hear you!";
-  } if(string === uppercase){
+  } if(string === uppercase) {
     return "YES INDEED!";
   }
-  if(string === "I love you, Grandma."){
+  if(string === "I love you, Grandma.") {
     return 'I love you, too';
   }
 }
