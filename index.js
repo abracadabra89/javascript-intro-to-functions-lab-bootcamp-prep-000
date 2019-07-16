@@ -19,8 +19,8 @@ function whisper(string){
 function logWhisper(string){
   console.log(string.toLowerCase);
 }
-logWhisper("HELLO");
-logWhisper('hello');
+//logWhisper("HELLO");
+//logWhisper('hello');
 
 function sayHiToGrandma(string){
   let uppercase = 'HELLO!';
@@ -34,9 +34,9 @@ function sayHiToGrandma(string){
     return 'I love you, too';
   }
 }
-sayHiToGrandma("I love you, Grandma.");
-sayHiToGrandma('hello');
-sayHiToGrandma('HELLO');
+//sayHiToGrandma("I love you, Grandma.");
+//sayHiToGrandma('hello');
+//sayHiToGrandma('HELLO');
 
 
 
